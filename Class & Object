@@ -1,0 +1,13 @@
+public class Sepeda {
+	//ini adalah tempat atribut
+	int gear = 5;
+	int jumlahRoda = 2;
+	String bermerk ="Polygon";
+	String Sepeda ="Gunung";
+
+
+	//ini adalah tempat method
+	void ngerem() {
+	 System.out.println("Sepeda direm");
+	}
+}
