@@ -1,0 +1,23 @@
+public class AksiSepeda {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//membuat objek
+		 Sepeda sepedaBalap = new Sepeda();
+
+		 //mengakses atribut dan method
+		 int gearSepeda = sepedaBalap.gear;
+		 int JumlahRoda = sepedaBalap.jumlahRoda;
+		 String merk = sepedaBalap.bermerk;
+		 String sepeda =sepedaBalap.Sepeda;
+		 System.out.println("Sepeda"+sepeda);
+		 System.out.println("bermerk"+merk);
+		 System.out.println("Memiliki Jumlah Roda"+JumlahRoda);
+		 System.out.println("gear sepeda"+gearSepeda);
+		 sepedaBalap.ngerem();
+		 
+
+	}
+
+}
